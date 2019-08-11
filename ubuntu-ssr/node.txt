@@ -1,0 +1,19 @@
+On Ubuntu systems, you also need to set these up:
+
+
+System Settings -> Network -> Network proxy -> Method
+		Method-->>Automatic
+		Configuration URL -->> http://127.0.0.1:2333/proxy.pac
+	Then -> Apply system wide
+
+
+System Settings -> Network -> Network proxy -> Method
+		method -> Manual
+		HTTP Proxy -->> 127.0.0.1      12333
+		HTTPS Proxy -->> 127.0.0.1      12333
+		FTP Proxy -->> 
+		Socks Host -->> 127.0.0.1      1080
+	Then -> Apply system wide
+
+
+
