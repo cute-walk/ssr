@@ -1,11 +1,13 @@
+Since I won't upload large files on github, the Ubuntu version of ssr is not in this project for you. You can find the Ubuntu version of the client by searching for "electron-ssr" in github.
+
+Such as: https://github.com/qingshuisiyuan/electron-ssr-backup
+
+
 On Ubuntu systems, you also need to set these up:
-
-
 System Settings -> Network -> Network proxy -> Method
 		Method-->>Automatic
 		Configuration URL -->> http://127.0.0.1:2333/proxy.pac
 	Then -> Apply system wide
-
 
 System Settings -> Network -> Network proxy -> Method
 		method -> Manual
@@ -14,6 +16,3 @@ System Settings -> Network -> Network proxy -> Method
 		FTP Proxy -->> 
 		Socks Host -->> 127.0.0.1      1080
 	Then -> Apply system wide
-
-
-
